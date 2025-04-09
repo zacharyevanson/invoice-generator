@@ -1,0 +1,21 @@
+Order Number: 1234
+Customer Name: Zach Evanson
+Contact Number: 9876543210
+City: Cape Town
+Email: null
+
+You have ordered the following from Egghead in Cape Town:
+
+1 x Chicken Burger with Chips (R124.99)
+2 x Greek Salad (R89.99)
+
+Special Request: Extra bacon please!
+
+Total Cost: R304.97
+
+Cayson Warner is nearest to the restaurant and will be delivering your order at:
+
+42 Appleseed Close, Gardens
+
+If you need to contact the restaurant, their number is 0123456789.
+

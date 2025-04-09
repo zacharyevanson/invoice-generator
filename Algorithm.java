@@ -29,7 +29,7 @@ public class Algorithm {
 
     private static void writeInvoice(Customer customer, Restaurant restaurant) {
         // file path to either create or update order.txt file
-        String filePath = "17-007 Capstone Project - OOP\\invoice.txt";
+        String filePath = "Files/invoice.txt";
         try (BufferedWriter br = new BufferedWriter(new FileWriter(filePath))) {
             br.write("Order Number: " + customer.getOrdNum() + "\n");
             br.write("Customer Name: " + customer.getName() + "\n");
@@ -55,10 +55,10 @@ public class Algorithm {
     private static void assignDriver(Restaurant restaurant, Customer customer) {
         // intializing the DriverSelector object and reading drivers from drivers.txt file
         DriverSelector driverSelector = new DriverSelector();
-        driverSelector.readDriversFromFile("17-007 Capstone Project - OOP\\drivers.txt");
+        driverSelector.readDriversFromFile("Files/drivers.txt");
         // running getBestDriver to determine the best driver based on location and order number
         Driver driver = driverSelector.getBestDriver(restaurant.getLocation());
-        String filePath = "17-007 Capstone Project - OOP\\invoice.txt";
+        String filePath = "Files/invoice.txt";
         try (BufferedWriter br = new BufferedWriter(new FileWriter(filePath, true))) {
             if (driver == null) {
                 br.write("Sorry! Our drivers are too far away from you to be able to deliver to your location.");
