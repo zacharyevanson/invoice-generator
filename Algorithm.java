@@ -55,7 +55,7 @@ public class Algorithm {
     private static void assignDriver(Restaurant restaurant, Customer customer) {
         // intializing the DriverSelector object and reading drivers from drivers.txt file
         DriverSelector driverSelector = new DriverSelector();
-        driverSelector.readDriversFromFile("Files/drivers.txt");
+        driverSelector.readDriversFromFile("Files/driver-info.txt");
         // running getBestDriver to determine the best driver based on location and order number
         Driver driver = driverSelector.getBestDriver(restaurant.getLocation());
         String filePath = "Files/invoice.txt";

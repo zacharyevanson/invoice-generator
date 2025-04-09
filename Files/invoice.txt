@@ -2,7 +2,7 @@ Order Number: 1234
 Customer Name: Zach Evanson
 Contact Number: 9876543210
 City: Cape Town
-Email: null
+Email: evansonzach@gmail.com
 
 You have ordered the following from Egghead in Cape Town:
 
