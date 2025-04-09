@@ -35,6 +35,7 @@ public class Customer {
         if (email == null || !email.contains("@")) {
             throw new IllegalArgumentException("Invalid email address.");
         }
+        this.email = email;
     }
 
 }
